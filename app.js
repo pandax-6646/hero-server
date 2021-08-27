@@ -34,6 +34,6 @@ app.use(paramsFn); // 访问数据库是异步的，所以这个 paramsFn 需要
 app.use(router.routes());
 
 
-app.listen(3000, () => {
-  console.log('serve is open in http://localhost:3000');
+app.listen(3001, () => {
+  console.log('serve is open in http://localhost:3001');
 });
